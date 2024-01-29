@@ -1,0 +1,598 @@
+!!DOCTYPE <html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title> Responsive Personal Portfolio Website Design | AllyGraphics</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+
+        <link rel="Stylesheet" href="style.css">
+        
+    </head>
+    
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/portfolio.png" />Portfolio</a>
+        <input type="checkbox" style="display: none;" class="theme-toggle dark-mode" id="darkmode-toggle"/>
+        <label for="darkmode-toggle">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5s5-2.24 5-5s-2.24-5-5-5M2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1m18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1M11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1m0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1M5.99 4.58a.996.996 0 0 0-1.41 0a.996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41zm12.37 12.37a.996.996 0 0 0-1.41 0a.996.996 0 0 0 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 0 0 0-1.41zm1.06-10.96a.996.996 0 0 0 0-1.41a.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0zM7.05 18.36a.996.996 0 0 0 0-1.41a.996.996 0 0 0-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0z"/></svg>
+
+			<!-- <svg version="1.1" class="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+
+			<rect x="152.994" y="58.921" transform="matrix(0.3827 0.9239 -0.9239 0.3827 168.6176 -118.5145)" width="40.001" height="16"/>
+			<rect x="46.9" y="164.979" transform="matrix(0.9239 0.3827 -0.3827 0.9239 71.29 -12.4346)" width="40.001" height="16"/>
+			<rect x="46.947" y="315.048" transform="matrix(0.9239 -0.3827 0.3827 0.9239 -118.531 50.2116)" width="40.001" height="16"/>
+			
+				<rect x="164.966" y="409.112" transform="matrix(-0.9238 -0.3828 0.3828 -0.9238 168.4872 891.7491)" width="16" height="39.999"/>
+			
+				<rect x="303.031" y="421.036" transform="matrix(-0.3827 -0.9239 0.9239 -0.3827 50.2758 891.6655)" width="40.001" height="16"/>
+			
+				<rect x="409.088" y="315.018" transform="matrix(-0.9239 -0.3827 0.3827 -0.9239 701.898 785.6559)" width="40.001" height="16"/>
+			
+				<rect x="409.054" y="165.011" transform="matrix(-0.9239 0.3827 -0.3827 -0.9239 891.6585 168.6574)" width="40.001" height="16"/>
+			<rect x="315.001" y="46.895" transform="matrix(0.9238 0.3828 -0.3828 0.9238 50.212 -118.5529)" width="16" height="39.999"/>
+			<path d="M248,88c-88.224,0-160,71.776-160,160s71.776,160,160,160s160-71.776,160-160S336.224,88,248,88z M248,392
+				c-79.4,0-144-64.6-144-144s64.6-144,144-144s144,64.6,144,144S327.4,392,248,392z"/>
+			<rect x="240" width="16" height="72"/>
+			<rect x="62.097" y="90.096" transform="matrix(0.7071 0.7071 -0.7071 0.7071 98.0963 -40.6334)" width="71.999" height="16"/>
+			<rect y="240" width="72" height="16"/>
+			
+				<rect x="90.091" y="361.915" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -113.9157 748.643)" width="16" height="71.999"/>
+			<rect x="240" y="424" width="16" height="72"/>
+			
+				<rect x="361.881" y="389.915" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 397.8562 960.6281)" width="71.999" height="16"/>
+			<rect x="424" y="240" width="72" height="16"/>
+			<rect x="389.911" y="62.091" transform="matrix(0.7071 0.7071 -0.7071 0.7071 185.9067 -252.6357)" width="16" height="71.999"/>
+</svg> -->
+     <!-- <svg version="1.1" class="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 49.739 49.739" style="enable-background:new 0 0 49.739 49.739;" xml:space="preserve">
+     <path d="M25.068,48.889c-9.173,0-18.017-5.06-22.396-13.804C-3.373,23.008,1.164,8.467,13.003,1.979l2.061-1.129l-0.615,2.268
+       c-1.479,5.459-0.899,11.25,1.633,16.306c2.75,5.493,7.476,9.587,13.305,11.526c5.831,1.939,12.065,1.492,17.559-1.258v0
+       c0.25-0.125,0.492-0.258,0.734-0.391l2.061-1.13l-0.585,2.252c-1.863,6.873-6.577,12.639-12.933,15.822
+       C32.639,48.039,28.825,48.888,25.068,48.889z M12.002,4.936c-9.413,6.428-12.756,18.837-7.54,29.253
+       c5.678,11.34,19.522,15.945,30.864,10.268c5.154-2.582,9.136-7.012,11.181-12.357c-5.632,2.427-11.882,2.702-17.752,0.748
+       c-6.337-2.108-11.473-6.557-14.463-12.528C11.899,15.541,11.11,10.16,12.002,4.936z"/></svg> -->
+		</label> 
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home"class="active">Home</a>
+            <a href="#about Me">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--Home section design-->
+    <body>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's </h3>
+            <h2> <span1 class="multiple-text"></span1></h2>
+            <h1>Kiarie Charles</h1>
+            <p> With passion, skills and dedication to bring your dreams to life, I create seamless  digital journeys 
+                that leave a lasting impression to every visitor in the realm of Digitization.
+            </p>
+            <div class="btn">
+                <a href="#services">Services</a>
+            </div>
+            <!-- <div class="btn">
+                <a href="#contact ">Contact</a>
+                <a target="_blank" href="https://icons8.com/icon/SyBDr18WdUcD/light-mode">Light Mode</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div> -->
+            <div class="btn">
+                <a href="#about Me">Know More</a>
+                <!-- <i class="fa-solid fa-chevron-right"></i> -->
+            </div>
+        </div>
+        <div class="home-img">
+            <img 
+            src="./images/portfolio3.png">
+        </div>
+    </section>
+    <section class="about" id="about Me">
+        <div class="about-header1">
+            <h2 class="heading">About<span> Me</span></h2>
+              <p>Scroll
+                <scroll>&#139;</scroll>
+                <scroll>&#155;</scroll>
+              </p>
+            </div>
+            <div class="pages">
+                <div class="product">
+                    <div class="detail">
+                        <div class="about-content-right-container">
+                           <img 
+                            src="./images/portfolio3.png"><h2 class="heading">🌟Kiarie Charles</h2>  
+                      <p><span class="multiple-text2"></span>
+                        As an up-to-date IT specialist with a passion for leveraging
+                        technology to drive business success I thrive in dynamic
+                        environments and excel at translating technical concepts into
+                        tangible results.<br>
+                        
+                    <blockquote>
+                        My journey has been marked by a commitment to staying at the
+                        forefront of industry trends, solving complex problems, and
+                        delivering innovative solutions.
+                        </blockquote>
+                        <p>Over the past five years, I have honed my skills
+                            and expertise in various facets of information technology.
+                    <br>🌟🌟🌟🌟🌟</br></p>
+                    </p>
+                    </div>
+                </div>
+            </div>
+                <div class="product">
+                    <div class="about-content">
+                      <div class="about-content-right-container">
+                      <h3>Education</h3>
+                       <div class="education">  
+                      <div class ="blockquote1">
+                        <p1>(I). 2016 - 2020 <br>
+                          Kenya Methodist University <br>
+                          Bachelors in Computer Information Systems.</p1><br><br>
+                          <p2>(II)
+                            2011 - 2015 <br>
+                            Leshau Boys High School<br>
+                            Kenya Certificate of Secondary Education
+                          </p2>
+                      </div>
+                          <div class ="blockquote2">
+                            <p1>Certifications</p1><br>
+                                <p2>
+                                    <li>ITE Essentials, Get connected & Mobility fundamentals(Cisco)</li> 
+                                    <li>CompTIA Security+, CompTIA CASP+ & CISSP (Cybary)</li>
+                                    <li>NDG Linux Essentials & Linux unhatched</li>
+                                    <li>C & C++ Programing (Cisco) </li>
+                                <li>Computer Driving Licence (ICDL)</li>
+                                </p2>
+                          </div>
+                        </div> 
+                     </div>
+                  </div>
+                  </div>
+                  <div class="product">
+                    <div class="about-content">
+                      <div class="about-content-right-container">
+                      <h3>Skills</h3>
+                       <div class="expertise">  
+                      <div class ="blockquote3">
+                        <p>Expertise</p>
+                        <p1>(1).Proficient in Office Suite Operations <br>
+                            (2).Skilled in Technical Computer hardware Operations, Software installation and maintenance.<br> 
+                            (3).Experienced in Data Analytics with power BI Excel & Google Sheets<br>
+                            (4).Familiar with CRM softwares (saleforce & Hubspot).<br>
+                            (5).Experienced in both Management and updates of social social-media accounts.
+                      </div>
+                          <div class ="blockquote4">
+                            <img 
+                            src="./images/icons2.png">
+                            <img 
+                            src="./images/icons1.png">
+                         
+                          </div>
+                        </div> 
+                     </div>
+                  </div>
+                  </div>
+              <div class="product">
+                <div class="detail">
+                    <div class="about-content-right-container">
+                        <h3>Work</h3>
+                        <div class="lastpage">
+                            <div class="work">  
+                                <p1>
+                                    <li>(1).Currently I free lance while keeping up with Tech.</li> 
+                                    
+                                    <li> (2).Previously Interned at Uwezo Fund Oversight Board Under ministry of Public service.</li>
+                                  
+                                </p1> 
+                                <p2>
+                                    <li>(3).Worked at Johnsons Cloud solution as a Network Technician and Administrator.  </li>
+                                    <li>(4).Voluntary Shared My skills at Nyaga youth Polytechnic as a ICT instructor</li>
+                                </p2>
+                            </p1>
+                        </div>
+                            <h3>References</h3>
+                        
+                      
+                            <div class ="references">
+                                  <div class="ref1">
+                                  <p2>
+                                    (1)PETER LENGAPIAN<br>
+                                       UWEZO FUND BOARD<br>
+                                       HEAD OF SECRETARIAT<br>
+                                       PHONE 0776 154 215<br>
+                                       Email: info@uwezo.go.ke<br> 
+                                      <!-- <li>ITE Essentials, Get connected & Mobility fundamentals(Cisco)</li> 
+                                      <li>CompTIA Security+, CompTIA CASP+ & CISSP (Cybary)</li> -->
+                                  </p2>
+                                </div>
+                                <div class="ref1">
+                                    <p2>
+                                      (1)GEORGE WAMAHIO <br>
+                                         NYAGA YOUTH POLYTECHNIC<br>
+                                         HEAD OF ICT DEPARTMENT<br>
+                                         PHONE 0726 637 824<br>
+                                         Email: wamahiogeorge@gmail.com<br>
+                                        <!-- <li>ITE Essentials, Get connected & Mobility fundamentals(Cisco)</li> 
+                                        <li>CompTIA Security+, CompTIA CASP+ & CISSP (Cybary)</li> -->
+                                    </p2>
+                                  </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </section>
+    
+
+     <!-- Services section design-->
+     <section class="services" id="services">
+        <h2 class="heading"> Main <span>Services</span></h2>
+        <div class="services-container">
+                <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Web Development</h3>
+                    <p>
+                        In need of an eye-catching:
+                        <br> website, <br>A dynamic web app,<br> An 
+                        e-commerce platform <br> All that drives growth?.<br><br>
+                        The Journey Begins Here.🌟
+
+                    </p>
+                    <!-- <a href="#"class="btn">Read More</a> -->
+                </div>
+
+                <div class="services-box">
+                    <i class="bx bx-bar-chart-alt"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Unlock your Digital Potential <br> 
+                        From weaving compelling stories to analyzing data insights,
+                        Where algorithms shift and consumer behavior evolve.<br><br>
+                        Digital marketing holds the key to unlocking unlimited potential.🌟
+                    </p>
+                    <!-- <a href="#"class="btn">Read More</a> -->
+                </div>
+                        
+
+                <div class="services-box">
+                    <i class="bx bxs-paint"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Exploring the boundless horizons of design, 
+                        where pixels dance, ideas take flight, and visual dreams become a 
+                        captivating reality.<br><br>
+                        Imagination is the currency of transformation. 🌟 
+                    </p>
+                    <!-- <a href="#"class="btn">Read More</a> -->
+                </div>
+            </section>
+
+    <!-- Portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"> Latest <span>Projects </span></h2>
+        <div class="portfolio-container">
+
+            <div class="outer-box">
+                <div class="portfolio-box">
+                    <img src="./images/portfolio4.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>
+                            80% Complete
+                        </p>
+                        <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    </div>
+                </div>
+                <p>"This a Digital identity, showcasing skills, achievements, and creativity. It sets you apart, 
+                    attracts opportunities, and provides a platform to exhibit your best work, leaving a lasting
+                     impression."</p>
+            </div>
+
+            <div class="outer-box">
+                <p>"This a Digital identity, showcasing skills, achievements, and creativity. It sets you apart, 
+                    attracts opportunities, and provides a platform to exhibit your best work, leaving a lasting
+                     impression."</p>
+                <div class="portfolio-box">
+                    <img src="./images/portfolio6.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>
+                            65% Complete
+                        </p>
+                        <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="outer-box">
+                <div class="portfolio-box">
+                    <img src="./images/portfolio6.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Personal Portfolio</h4>
+                        <p>
+                            40% Complete
+                        </p>
+                        <!-- <a href="#"><i class='bx bx-link-external'></i></a> -->
+                    </div>
+                </div>
+                <p>"This a Digital identity, showcasing skills, achievements, and creativity. It sets you apart, 
+                    attracts opportunities, and provides a platform to exhibit your best work, leaving a lasting
+                     impression."</p>
+            </div>
+
+            </div>
+        </section>
+
+         <!-- Contact section design-->
+         <section class="contact" id="contact">
+            <h3 class="heading"> Contact <span>Me!</span></h3>
+            <div class="contactBody">
+            <div class="contact_top">
+              <div class="get_in_touch">
+                <h2>GET IN TOUCH</h2>
+                <p>
+                  Work with a dedicated Information Technology specialist and skilled
+                  Software Developer for innovative solutions. Contact for inquiries
+                  and the latest updates and insights.Let's transform ideas into
+                  reality together!
+                </p>
+              </div>
+              <div class="address">
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="text">challytechfast@gmail.com</div>
+                  </li>
+      
+                  <li>
+                    <div class="icon">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="text">+254725882600</div>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text">kimathi street, Nairobi, kenya</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact_form">
+              <form action="https://api.web3forms.com/submit" method="POST">
+              <form onsubmit="emailSend(); reset(); return false;">
+                <h2>CONTACT US</h2>
+                <input type="hidden" name="access_key"  value="f4506408-37f0-4ab4-a9e7-7d1d68a1c0c0">
+                <div class="input_field">
+                  <input type="text" placeholder="Your Name" name="fullName"  id="contact-name" onkeyup="validateName()"/>
+                  <span id="name-error"></span>
+                </div>
+                <div class="input_field">
+                  <input type="number" placeholder="MobileNumber" name="MobileNumber" id="mobile-number" onkeyup="validatePhone()">
+                  <span id="number-error"></span>
+                </div>
+
+                <div class="input_field">
+                  <input type="text" placeholder="Your Email" name="emailAddress" id="email-address" onkeyup="validateEmail()"/>
+                  <span id="email-error"></span>
+                </div>
+                <div class="input_field">
+                  <textarea placeholder="Message" name="" id="sent-message" onkeyup="validateMessage()"></textarea>
+                  <span id="message-error"></span>
+                </div>
+                <div class="input_field">
+                  <button type="submit" onclick="return validateForm()" onclick="emailSend()">SEND</button>
+                  <span id="submit-error"></span>
+                </div>
+                <input type='reset' value='Reset' name='reset'> 
+              </form>
+            </div>
+            <div class="contact_bottom">
+              <div class="info">
+                <div class="about">
+                  <h2>Software Development</h2>
+                  <p>
+                    Explore collaboration opportunities or schedule a consultation.
+                  </p>
+                </div>
+                <div class="subscribe">
+                  <h2>Cyber Tasks</h2>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatibus exercitationem, accusantium, earum reprehenderit
+                    culpa autem eos neque dolor officia pariatur laudantium optio enim
+                    quaerat impedit nobis necessitatibus omnis animi vitae.
+                  </p>
+                </div>
+              </div>
+              <!-- <div class="nav_links">
+                <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">SERVICES</a></li>
+                  <li><a href="#">CLIENTS</a></li>
+                  <li><a href="#">PRODUCTS</a></li>
+                  <li><a href="#">MAPS</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box"> 
+                <input type="hidden" name="access_key" value="f4506408-37f0-4ab4-a9e7-7d1d68a1c0c0">
+                <input type="text" name="fullName" placeholder="FullName">
+                <input type="number" name="MobileNumber" placeholder="MobileNumber">
+                <input type="email" name="emailAddress"placeholder="EmailAddress">
+                <input type="text" name="emailSubject"placeholder="EmailSubject">
+           
+            <textarea name="" id="" cols="40" rows="7" placeholder="Message"></textarea>
+            <input type='reset' value='Reset' name='reset'> 
+            <button type="submit" class="btn">Send Message</button>
+          
+        </div>
+        </form>
+    </section> -->
+
+
+       <!--footer-iconTop-->
+       <footer class="footer">
+        <div class="footer-text">
+            <div class="social-media">
+                <div class="icon Whatsapp">
+                    <div class="tooltip">Whatsapp</div>
+                    <a href="https://wa.me/+254725882600"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+                 <div class="icon facebook">
+                    <div class="tooltip">facebook</div>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                </div>
+                <div class="icon linkedin">
+                    <div class="tooltip">Linkedin</div>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <div class="icon Github">
+                    <div class="tooltip">Github</div>
+                <a href="#"><i class="bx bxl-Github"></i></a>
+                </div>
+            </div>
+
+            <p>Copyright &copy; 2023 by <u>AllyGraphics</u> |   All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+       </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="https://unpkg.com/scrollreveal"></script>
+
+
+       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <!--custom js-->
+    <script src="script.js"></script>
+    <script src="mode.js"></script>
+    <script src="cv.js"></script>
+    <script src="validate.js"></script>
+    <script src="sendmail.js"></script> 
+
+
+    <script src="https://kit.fontawesome.com/3ef3559250.js" crossorigin="anonymous"></script>
+  
+  <script src ="https://smtpjs.com/v3/smtp.js"></script>
+  
+
+    </body>
+</html>
